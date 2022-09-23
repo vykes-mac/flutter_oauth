@@ -1,0 +1,30 @@
+name: flutter_oauth
+description: Flutter OAuth Module.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_facebook_auth: ^4.4.1+1
+  google_sign_in: ^5.4.1
+  http: ^0.13.5
+  sign_in_with_apple: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mocktail: ^0.3.0
+
+flutter:
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.flutter_oauth
+    iosBundleIdentifier: com.example.flutterOauth
